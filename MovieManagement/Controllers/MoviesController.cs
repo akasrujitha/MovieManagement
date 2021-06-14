@@ -125,34 +125,7 @@ namespace MovieManagement.Controllers
             return NoContent();
         }
 
-        ////// POST: api/Movies
-        ////// To protect from overposting attacks, enable the specific properties you want to bind to, for
-        ////// more details, see https://go.microsoft.com/fwlink/?linkid=2123754.
-        ////[HttpPost]
-        ////public async Task<ActionResult<Movie>> PostMovie(Movie movie)
-        ////{
-        ////    _context.Movies.Add(movie);
-        ////    await _context.SaveChangesAsync();
-
-        ////    return CreatedAtAction("GetMovie", new { id = movie.id }, movie);
-        ////}
-
-        //// DELETE: api/Movies/5
-        //[HttpDelete("{id}")]
-        //public async Task<ActionResult<Movie>> DeleteMovie(int id)
-        //{
-        //    var movie = await _context.Movies.FindAsync(id);
-        //    if (movie == null)
-        //    {
-        //        return NotFound();
-        //    }
-
-        //    _context.Movies.Remove(movie);
-        //    await _context.SaveChangesAsync();
-
-        //    return movie;
-        //}
-
+   
       
          
     }
